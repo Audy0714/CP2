@@ -1,0 +1,224 @@
+body {
+	background: #eee;
+}
+* {
+	box-sizing: border-box;
+	font-family: Asap, Oswald, sans-serif;
+}
+.container {
+	width: 90%;
+	margin: auto;
+	padding-left: 250px;
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.header {
+	position: fixed;
+	margin-left: -250px;
+	width: 250px;
+	height: 100%;
+	background: #f5f5f5;
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.search {
+	padding: 1rem;
+	background: #f39c12;
+}
+.search-input {
+	padding: 0.75rem 1rem;
+	border: none;
+	font-size: 1.2em;
+	width: 100%;
+	border-radius: 2rem;
+}
+.title {
+	font-size: 2em;
+	font-weight: bold;
+	border-bottom: 3px solid #f39c12;
+	padding-bottom: 1rem;
+	padding-top: 0.5rem;
+}
+.nav {
+	padding: 2rem;
+	height: 400px;
+	/*menu navigation les uns en dessous des autres*/
+	display: flex;
+	flex-direction: column;
+}
+.nav-links {
+	width: 260px;
+	height: 100px;
+}
+.nav-item {
+	font-size: 1.25em;
+	text-transform: uppercase;
+	background-color: rgb(204, 198, 198);
+	border-radius: 10px;
+	max-width: 65%;
+	padding: 1.2em;
+	margin: 0.5rem;
+	text-align: center;
+}
+.nav-item-link-a {
+	border-bottom: 2px solid #f39c12;
+	padding-bottom: 1rem;
+}
+
+/*intéraction*/
+.nav-item:hover {
+	background-color: #f39c12;
+}
+.page {
+	padding: 5rem 2rem 2rem;
+}
+.content-focus {
+	border-bottom: 3px solid #ccc;
+	padding-bottom: 2rem;
+	margin-bottom: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.content-titles {
+	width: 50%;
+	font-size: 3em;
+	margin-right: 2rem;
+	clear: right;
+}
+.content-title {
+	max-width: 450px;
+	margin-left: auto;
+	text-align: right;
+}
+.content-title--main {
+	font-weight: bold;
+	font-size: 1.5em;
+	border-top: 3px solid #f39c12;
+	padding-top: 0.5em;
+}
+.content-title--sub {
+	color: #aaa;
+	padding: 0.5em;
+	font-weight: bold;
+}
+.content-picture {
+	width: 50%;
+	position: relative;
+}
+.rounded {
+	overflow: hidden;
+}
+.picture {
+	width: 100%;
+	float: right;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+.picture-desc {
+	position: absolute;
+	color: white;
+}
+.text {
+	font-size: 25px;
+	padding: 15px 365px 15px 15px;
+	background: rgba(100, 105, 180, 0.4);
+	margin-top: 318px;
+	border-radius: 15px;
+}
+.content-quote {
+	border-top: 3px solid #ccc;
+	margin-top: 2rem;
+}
+.content p {
+	font-size: 1.1em;
+	line-height: 1.5;
+}
+.content h3 {
+	font-size: 1.7em;
+	font-weight: bold;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	padding-top: 1rem;
+}
+.content ol {
+	list-style-type: decimal;
+	font-size: 1.1em;
+	margin-left: 1.5em;
+	line-height: 1.5;
+}
+.articles {
+	margin-top: 5rem;
+}
+.articles-container {
+	margin-top: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.card {
+	margin-bottom: 2rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	width: 50%;
+}
+.card-title {
+	margin: 1.5rem 1rem;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+.card-content {
+	padding: 0 1rem;
+}
+.card-content p {
+	font-size: 1.1em;
+	line-height: 1.5;
+}
+.card-footer {
+	margin: 2rem 1rem;
+	display: flex;
+	justify-content: flex-start;
+}
+.btn {
+	padding: 1rem 2rem;
+	margin: 0.5rem;
+	font-size: 1.2em;
+	color: #f39c12;
+	background-color: white;
+	border-radius: 30px;
+	border: 4px solid #f39c12;
+	font-weight: bold;
+	width: 170px;
+	text-align: center;
+	transition: 0.5s;
+	transition-property: background;
+}
+.right {
+	width: 120px;
+}
+
+/*intéraction*/
+.btn:hover {
+	background-color: #f39c12;
+	color: white;
+}
+.btn a:hover {
+	background-color: #f39c12;
+	color: white;
+}
+.footer {
+	background: #111;
+	padding: 4rem 2rem;
+	text-align: center;
+	color: #aaa;
+}
+
+/*
+    Styles pour les écrans de moins de 1200px de large :
+*/
+
+/*
+    Styles pour les écrans de moins de 900px de large :
+*/
+
+/*
+    Styles pour les écrans de moins de 450px de large :
+*/
