@@ -214,11 +214,151 @@ body {
 /*
     Styles pour les écrans de moins de 1200px de large :
 */
+@media screen and (max-width: 1200px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+		width: auto;
+	}
+	.header {
+		position: relative;
+		width: auto;
+	}
+	.title {
+		visibility: hidden;
+		padding-bottom: 0rem;
+		padding-top: 0rem;
+		font-size: 0em;
+		border-bottom: 0px;
+	}
+	.nav {
+		height: 290px;
+	}
+	.nav-links {
+		width: auto;
+	}
+	.nav-item {
+		max-width: 100%;
+		text-align: center;
+	}
+	.container .header {
+		padding-left: -250px;
+	}
+	.container .page {
+		padding-left: 0px;
+	}
+	.page {
+		padding: 1rem;
+	}
+	.content-focus {
+		flex-direction: column;
+		padding-bottom: 0rem;
+		margin-bottom: 0rem;
+		border-bottom: 0px;
+	}
+	.content-titles {
+		width: 60%;
+		font-size: 1.5rem;
+	}
+	.content-title--main {
+		border-top: 0px;
+		padding-top: 0em;
+	}
+	.content-picture {
+		width: auto;
+	}
+	.content-quote {
+		border-top: 0px;
+		margin-top: 0rem;
+	}
+	.articles-container {
+		display: block;
+	}
+	.card {
+		width: auto;
+	}
+	.text {
+		margin-top: 300px;
+		font-size: 20px;
+		padding: 15px 382px 15px 15px;
+	}
+	.para {
+		visibility: hidden;
+	}
+}
 
 /*
     Styles pour les écrans de moins de 900px de large :
 */
-
+@media screen and (max-width: 900px) {
+	.header {
+		position: static;
+		width: auto;
+		float: none;
+		margin-left: 0;
+		height: auto;
+	}
+	.container {
+		width: 96%;
+		padding-left: 0;
+	}
+	.page {
+		padding: 0 1rem;
+	}
+	.nav {
+		padding: 1rem;
+	}
+	.nav .title {
+		display: none;
+	}
+	.nav-links {
+		/*display: inline;
+		flex-direction: row;*/
+		margin-top: 0;
+	}
+	.nav-item {
+		text-align: center;
+	}
+	.nav-item-link {
+		margin-bottom: 0;
+	}
+	.text {
+		margin-top: 400px;
+		padding: 15px 510px 15px 15px;
+	}
+	.content-titles {
+		width: 70%;
+		font-size: 1rem;
+	}
+	.content-picture {
+		width: 100%;
+	}
+}
 /*
     Styles pour les écrans de moins de 450px de large :
 */
+@media screen and (max-width: 450px) {
+	.header {
+		position: static;
+		width: auto;
+		float: none;
+		margin-left: 0;
+		height: auto;
+	}
+	.nav-links {
+		display: flex;
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	.nav {
+		padding: 0;
+	}
+	.nav-item {
+		flex: 1;
+		padding: 10px;
+		font-size: 100%;
+	}
+	.card-footer {
+		display: flex;
+	}
+}

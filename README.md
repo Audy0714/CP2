@@ -1,5 +1,4 @@
 # CP2
-
 # Activité-type 1 : Développer la partie front-end d’une application web ou web mobile en intégrant les recommandations de sécurité
 
 CP2 : Réaliser une interface web statique et adaptable.
